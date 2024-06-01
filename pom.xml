@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.github.dubasdey</groupId>
+	<artifactId>shutdown-programmer</artifactId>
+	<version>1.0.0</version>
+	<name>shutdown</name>
+	<description>Shutdown application. GUI to shutdown, suspend or hibernate your pc after a programmed time</description>
+	<url>https://github.com/dubasdey/shutdown-programmer</url>
+	
+	<licenses>
+	    <license>
+	        <name>GNU GPL v3</name>
+	        <url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
+	        <distribution>repo</distribution>
+	    </license>
+	</licenses>
+	
+
+	<properties>
+		<java.version>8</java.version>
+		<maven.compiler.source>8</maven.compiler.source>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	
+	<build>
+		<finalName>${project.artifactId}</finalName>
+		<plugins>
+
+		</plugins>
+	</build>	
+</project>
