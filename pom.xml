@@ -29,7 +29,18 @@
 	<build>
 		<finalName>${project.artifactId}</finalName>
 		<plugins>
-
+ 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+				<archive>
+					<manifest>
+					<addClasspath>true</addClasspath>
+					<mainClass>com.github.dubasdey.MainWindow</mainClass>
+					</manifest>
+				</archive>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>	
 </project>
